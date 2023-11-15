@@ -55,7 +55,7 @@ endtask
         // for(i = 0; i<(2**(N))**2;i = i + 1)begin
         //     test_case(i[2*N-1:N],i[N-1:0]);
         // end
-        test_case('HFF,'HFF);
+        test_case('HFF,'HFE);
         $finish;
     end
 
