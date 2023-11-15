@@ -12,7 +12,7 @@ module n_bit_array_mul #(
     generate
         assign w_partial_carry[0] = 0;
         assign w_partial_prod[N-1:0] = a&{N{b[0]}};
-        for(g_i=1; g_i<N; g_i=g_i+1) begin
+        for(g_i=1; g_i<N; g_i=g_i+1) begin: L_G_PARTIAL_PROD
             n_bit_adder #(.N(N)) fa_i(
                 .a(a&{N{b[g_i]}}), 
                 .b({w_partial_carry[g_i-1],w_partial_prod[N*g_i-1:N*(g_i-1)+1]}),
