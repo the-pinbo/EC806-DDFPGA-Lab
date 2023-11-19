@@ -1,5 +1,6 @@
 `timescale 1ns / 1ps
-`include "mul.v"
+`include "shift_and_add_mul.v"
+
 module shift_and_add_mul_tb();
 
     parameter N = 8;

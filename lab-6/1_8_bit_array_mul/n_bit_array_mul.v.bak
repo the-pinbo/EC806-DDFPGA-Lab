@@ -1,4 +1,4 @@
-//`include "n_bit_adder.v"
+`include "n_bit_adder.v"
 
 module n_bit_array_mul #(
     parameter N = 3

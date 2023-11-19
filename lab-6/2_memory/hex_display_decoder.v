@@ -4,7 +4,7 @@ module hex_display_decoder(
 );
     always @(*) begin
         casex (hex_num)
-            4'b0000: segment = 7'b100_0000;  //zero
+            4'b0000: segment = 7'b100_0000;  //0 1 2 3 4 5 6
             4'b0001: segment = 7'b1111_001;  //one
             4'b0010: segment = 7'b010_0100;  //two
             4'b0011: segment = 7'b011_0000;  //three
