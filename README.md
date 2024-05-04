@@ -1,3 +1,3 @@
-# DDFPGA
+# DDFPGA EC806 - Digital Design using FPGA's
 
-EC-806 lab
+This repository contains all lab assignments for the course "DDFPGA" EC806 - Digital Design using FPGA's
